@@ -294,4 +294,4 @@ Advantage of Tailwind CSS:
 
 - **place-content-n** : Shorthand for both justify-content and align-content.
 
-- sm -> small screen, lg -> large screen, md -> medium screen, xl/2xl -> Extra large screen.
+- **sm** -> small screen, **lg** -> large screen, **md** -> medium screen, **xl/2xl** -> Extra large screen.
