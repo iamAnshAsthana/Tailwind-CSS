@@ -230,10 +230,68 @@ Advantage of Tailwind CSS:
 
 - Always define the mobile look first, and then use prefixes to tell Tailwind what should change as the screen gets bigger.
 
-
 ### State:
 
 - **E.g of hover** : bg-blue-700
 
 - **E.g of focus** : border-indigo-500
 
+### Grid System:
+
+- Displays data in a grid (in a table with rows and columns)
+  
+- **grid** : Mandatory to define the element as a grid container.
+
+- **grid-cols-4** : Defines the number of columns. We can use numbers up to 12.
+
+- **grid-rows-3** : Defines the number of rows (less common than columns).
+
+- **gap-6** : Sets spaces between the grids, we can use gap-x-*, gap-y-* for showing changes in particular section.
+
+- **gap-x-n** : Sets only the horizontal column spacing.
+
+- **gap-y-n** :	Sets only the vertical row spacing.
+
+- **grid-flow-row**	: Sets item placement to proceed across rows first, then down (default).
+
+- **grid-flow-col** : Sets item placement to proceed down columns first, then across.
+
+- **grid-flow-dense** :	Allows items to fill in holes left by earlier items for better space usage.
+
+- **col-span-1** : Makes the item span 1 column.
+
+- **row-span-2** : Makes the item span 2 rows.
+
+- **col-start-2** : Makes the item to begin with 2nd vertical grid line.
+
+- **col-end-n/auto** : Specifies the vertical grid line number where the item should end.
+
+- **row-start-n** : Specifies the horizontal grid line number where the item should start.
+
+- **row-end-n** : Specifies the horizontal grid line number where the item should end.
+
+- **col-span-full** : Forces the item to span the entire width of the grid, regardless of the column count.
+
+- **row-span-full**	: Forces the item to span the entire height of the grid.
+
+- **grid-cols-1** : Always applied.
+
+- **md:grid-cols-3** : Applied from medium screens up.
+
+- **lg:col-span-1** : Applied from large screens up.
+
+- **justify-items-n** : Aligns grid items horizontally within their own cells (e.g., start, center, end).
+
+- **justify-self-n** : Aligns a single grid item horizontally within its own cell.
+
+- **content-n** : Aligns the grid tracks/content when there is extra space in the container (e.g., center, between).
+
+- **items-n** : Aligns grid items vertically within their own cells (e.g., start, center, end).
+
+- **self-n** : Aligns a single grid item vertically within its own cell.
+
+- **place-items-n** : Shorthand for both justify-items and align-items.
+
+- **place-content-n** : Shorthand for both justify-content and align-content.
+
+- sm -> small screen, lg -> large screen, md -> medium screen, xl/2xl -> Extra large screen.
